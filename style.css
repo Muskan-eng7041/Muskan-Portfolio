@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydGZvbGlvfGVufDB8fDB8fHww') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.3rem;
+}
+#about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url('https://sensee.jp/media/wp-content/uploads/2020/09/AdobeStock_259451915.jpg') no-repeat center center/cover;
+    color: #333333;
+}
+#about h2{
+    color: #000000;
+}
+#skills{
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(rgba(135, 206, 235, 0.2), rgba(224, 247, 250, 0.2)),url("image.png") no-repeat center center/cover;
+}
+.skill-card{
+    background-color: #112240;
+    color: #f1efef;
+}
+#education{
+    height: 100vh;
+    background: url("https://img.freepik.com/premium-photo/notepad-notebook-with-school-supplies-top-view_182252-6693.jpg?semt=ais_hybrid&w=740&q=80") no-repeat center center/cover;
+}
+.edu-card{
+    background-color: #fff8e1;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+#projects{
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("https://t3.ftcdn.net/jpg/02/81/97/02/360_F_281970265_KR6Ey4XF3miLYq0QDp3WsH0m35MR2tGC.jpg") no-repeat center center/cover;
+}
+#projects h2{
+    color: #fff;
+}
+.icons{
+    font-size: 2.5rem;
+}
+.icons a{
+    text-decoration: none;
+    color: #222222;
+    gap: 0.5rem;
+}
+.icons a:hover{
+    color: #0d6efd;
+}
+#contact{
+    background:  url("https://png.pngtree.com/thumb_back/fh260/background/20240612/pngtree-contact-us-concept-contact-symbols-on-white-cube-shape-blocks-copy-image_15747976.jpg") no-repeat center center/cover;
+}
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease;
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Optional delay classes */
+.fade-up.delay-1 { transition-delay: 0.2s; }
+.fade-up.delay-2 { transition-delay: 0.4s; }
+.fade-up.delay-3 { transition-delay: 0.6s; }
+.fade-up.delay-4 { transition-delay: 0.8s; }
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0;
+}
+#msg{
+    color:#f1efef;
+}
+
+@media (max-width: 480px){
+    .hero{
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+        url('mobilefront.jpg') no-repeat center center/cover; 
+    }
+    .hero h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    #about{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('https://www.shutterstock.com/image-photo/blank-black-corporate-stationery-on-600nw-1051434977.jpg') no-repeat center center/cover;
+    color: #f1efef;
+    }
+    #about h2{
+        color: #f1efef;
+    }
+    .form{
+        margin-top: 5rem;
+    }
+}
