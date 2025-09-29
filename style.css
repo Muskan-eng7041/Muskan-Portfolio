@@ -10,7 +10,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-    url('https://www.shutterstock.com/image-photo/blank-black-corporate-stationery-on-600nw-1051434977.jpg') no-repeat center center/cover;
+    url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydGZvbGlvfGVufDB8fDB8fHww') no-repeat center center/cover;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ body {
 #skills{
     min-height: 100vh;
     height: auto;
-    background: linear-gradient(rgba(135, 206, 235, 0.2), rgba(224, 247, 250, 0.2)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMu61bcEUS0zIfwwBMWgYHHbJNAyYW-ga1vw&s") no-repeat center center/cover;
+    background: linear-gradient(rgba(135, 206, 235, 0.2), rgba(224, 247, 250, 0.2)),url("https://plus.unsplash.com/premium_photo-1661775756810-82dbd209fc95?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D") no-repeat center center/cover;
 }
 .skill-card{
     background-color: #112240;
@@ -132,10 +132,10 @@ footer p{
     #about h2{
         color: #f1efef;
     }
+    #skills{
+        background: linear-gradient(rgba(135, 206, 235, 0.2), rgba(224, 247, 250, 0.2)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMu61bcEUS0zIfwwBMWgYHHbJNAyYW-ga1vw&s") no-repeat center center/cover;
+    }
     .form{
         margin-top: 5rem;
     }
-
 }
-
-
