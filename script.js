@@ -37,14 +37,5 @@ AOS.init({
       })      
       .catch(error => console.error('Error!', error.message))
   })
- // Get modal instance
-    var projectModal = new bootstrap.Modal(document.getElementById('projectModal'));
-    
-    // Button that opens modal
-    var viewBtn = document.getElementById('viewProjectBtn');
 
-    // Open modal on click
-    viewBtn.addEventListener('click', function() {
-      projectModal.show();
-    });
 
